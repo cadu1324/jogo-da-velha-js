@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div>
+    <table align="center">
+        <thead>
+            <caption id="nome">Jogo da Velha</caption> 
+        </thead>
+        <tbody>
+            <tr id="role1">
+                <td class="space"><img id="a" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="b" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="c" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+            </tr>
+            <tr id="role2">
+                <td class="space"><img id="d" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="e" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="f" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+            </tr>
+            <tr id="role3">
+                <td class="space"><img id="g" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="h" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+                <td class="space"><img id="i" onclick="jogo(this.id)" src="./imagens/branco.png"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <script src="./game.js"></script>
+</body>
+</html>
